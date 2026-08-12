@@ -24,7 +24,7 @@ header {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-main {
+#inicio {
   padding: 20px;
 }
 
@@ -50,7 +50,7 @@ p {
 }
 
 #inicio > div > a {
-  width: 95vw;
+  width: 90vw;
   padding: 22px;
   margin-bottom: 15px;
 
@@ -81,4 +81,60 @@ p {
 .btn-demonstracao:hover {
   background-color: rgb(250, 238, 217);
   transition: background-color 0.3s;
+}
+
+picture {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+picture > img {
+  width: 90vw;
+}
+
+#patrocinios {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  background-image: linear-gradient(to bottom, white 40%, rgb(255, 252, 243));
+}
+
+#patrocinios > p {
+  padding: 20px 10px 0px 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#patrocinios > img {
+  width: 70vw;
+}
+
+#propostas {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.propostas-formulario {
+  display: flex;
+  justify-content: center;
+}
+
+.propostas-formulario > img {
+  width: 90vw;
+}
+
+#propostas > h3 {
+  font-size: 1.4em;
+  padding: 0px 20px;
+}
+
+#propostas > p {
+  font-size: 1.1em;
+  line-height: 20px;
+  padding: 20px;
 }
