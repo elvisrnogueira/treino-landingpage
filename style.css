@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  background-color: rgb(255, 252, 243);
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+
+  background-color: white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  padding: 20px;
+}
+
+#inicio > h2 {
+  font-size: 2.4em;
+  font-weight: 510;
+}
+
+#inicio > p {
+  font-size: 1.1em;
+}
+
+#inicio > h2,
+p {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#inicio > div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#inicio > div > a {
+  width: 95vw;
+  padding: 22px;
+  margin-bottom: 15px;
+
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 10px;
+}
+
+.btn-comecar {
+  color: white;
+  background-color: orangered;
+}
+
+.btn-comecar:hover {
+  background-color: rgb(181, 49, 1);
+  transition: background-color 0.3s;
+}
+
+.btn-demonstracao {
+  color: orangered;
+  background-color: white;
+  border: 2px solid orangered;
+}
+
+.btn-demonstracao:hover {
+  background-color: rgb(250, 238, 217);
+  transition: background-color 0.3s;
+}
