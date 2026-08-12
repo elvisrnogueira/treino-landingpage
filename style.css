@@ -83,14 +83,14 @@ p {
   transition: background-color 0.3s;
 }
 
-picture {
+.landingpage {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-picture > img {
+.landingpage > img {
   width: 90vw;
 }
 
@@ -116,7 +116,7 @@ picture > img {
 #propostas {
   display: flex;
   flex-flow: column nowrap;
-  align-items: flex-start;
+  padding: 20px;
 }
 
 .propostas-formulario {
@@ -130,11 +130,10 @@ picture > img {
 
 #propostas > h3 {
   font-size: 1.4em;
-  padding: 0px 20px;
+  margin-bottom: 15px;
 }
 
 #propostas > p {
   font-size: 1.1em;
   line-height: 20px;
-  padding: 20px;
 }
